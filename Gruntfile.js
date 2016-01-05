@@ -37,7 +37,7 @@ module.exports = function (grunt) {
                 options: {
                     port: 8888,
                     hostname: '*',
-                    open:'http://localhost:8888/params.html',
+                    open:'http://localhost:8888/collections.html',
                     livereload: true,
                     
                     base: 'public_html'
@@ -47,6 +47,7 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-babel');
+    
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-connect');
